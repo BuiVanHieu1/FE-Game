@@ -10,3 +10,12 @@ for(let i = 0; i < row; i++){
         broad.appendChild(cell);
     }
 }
+let matrix = [];
+for (let i = 0; i < row; i++){
+    let row=[];
+    for (let j = 0; j < col; j++){
+        row.push(0);
+    }
+    matrix.push(row);
+}
+console.log(matrix);
