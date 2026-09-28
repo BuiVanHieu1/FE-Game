@@ -32,12 +32,12 @@ h1{
     font-size: 20px;
     margin-top: 0;
 }
-.game-broad{
+.game-board{
     background-color: #26344c;
     width: 300px;
     height: 600px;
 }
-#broad{
+#board{
     display: grid;
     grid-template-columns: repeat(10, 30px);
     width: 300px;
@@ -59,4 +59,8 @@ h1{
 .btn-top{
     display: flex;
     gap: 10px;
+}
+.block{
+
+    background-color: rgb(204, 204, 6);
 }
