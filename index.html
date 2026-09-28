@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XepGach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Xếp Gạch</h1>
+        <div class="game-container">
+            <div class="game-info">
+                <h2>Thông tin</h2>
+                <p>Level: <span id="level">1</span></p>
+                <p>Điểm: <span id="score">0</span></p>  
+            </div>
+            <div class="game-broad">
+                <canvas id="game" width="300" height="600"></canvas>
+            </div>
+            <div class="game-guide">
+                <h2>Hướng dẫn</h2>
+                <p><- -> : Di chuyển</p>
+                <p>↑ : Xoay gạch</p>
+                <p>↓ : Rơi nhanh</p>
+                <p>Space : Dừng/Tiếp tục</p>
+                <div class="game-btn">
+                    <div class="btn-top">
+                        <button id="startBtn">Bắt đầu</button>
+                        <button id="pauseBtn">Tạm dừng</button>
+                     </div>
+                    <button id="resetBtn">Chơi lại</button>
+                
+                 </div>  
+          </div>
+        </div>
+        
+</body>
+</html>
