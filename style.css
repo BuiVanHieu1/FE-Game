@@ -37,6 +37,19 @@ h1{
     width: 300px;
     height: 600px;
 }
+#broad{
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    width: 300px;
+    height: 600px;
+    background-color: #607290;
+}
+.cell{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
 .game-btn{
     display: flex;
     flex-direction: column;
